@@ -11,6 +11,7 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
@@ -37,13 +38,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(V) &kp A &kp N &kp D &kp A &kp A &kp G &kp N1 &kp N2 &kp N3 &kp EXCL &kp EXCL &kp S &kp L &kp A &kp V &kp E>;
             label = "MACRO_PWD";
-        };
-
-        macro_AltSpace: macro_AltSpace {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp SPACE>;
-            label = "MACRO_ALTSPACE";
         };
     };
 
