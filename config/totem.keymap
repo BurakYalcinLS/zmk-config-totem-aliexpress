@@ -21,7 +21,7 @@
         compatible = "zmk,combos";
 
         combo_Enter {
-            bindings = <&kp RET>;
+            bindings = <&kp ENTER>;
             key-positions = <16 17 18 16 17 18>;
             layers = <0>;
         };
