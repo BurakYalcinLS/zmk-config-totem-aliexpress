@@ -54,7 +54,7 @@
     behaviors {
         tap_SS: tap_SS {
             compatible = "zmk,behavior-tap-dance";
-            label = "S";
+            label = "tap_SS";
             #binding-cells = <0>;
             bindings = <&kp S>, <&macro_SS>;
         };
