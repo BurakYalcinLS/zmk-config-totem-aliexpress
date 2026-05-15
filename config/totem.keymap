@@ -43,18 +43,11 @@
             label = "MACRO_PWD";
         };
 
-        macro_AltSpace: macro_AltSpace {
+        macro_SS: macro_SS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp SPACE>;
-            label = "MACRO_ALTSPACE";
-        };
-
-        macro_copy: macro_copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp C>;
-            label = "MACRO_COPY";
+            bindings = <&kp LEFT_GUI &kp LS(S)>;
+            label = "MACRO_SS";
         };
     };
 
@@ -90,9 +83,9 @@
 
         layer_3 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &trans           &trans        &trans
-        &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans           &trans        &trans
-&trans  &trans  &trans  &none   &trans  &trans    &trans        &kp K_MUTE    &kp C_VOLUME_UP  &kp C_VOL_DN  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &trans        &trans           &trans
+        &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans        &trans           &trans
+&trans  &trans  &trans  &none   &trans  &trans    &trans        &kp C_MUTE    &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans
                         &trans  &trans  &trans    &trans        &trans        &trans
             >;
         };
