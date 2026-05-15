@@ -81,10 +81,10 @@
 
         layer_2 {
             bindings = <
-        &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT       &kp AMPERSAND  &kp ASTERISK  &trans  &trans  &trans
-        &trans           &trans       &trans     &trans      &kp MINUS         &kp PLUS       &kp HOME      &trans  &trans  &trans
-&trans  &trans           &trans       &trans     &trans      &kp UNDERSCORE    &kp EQUAL      &kp END       &trans  &trans  &trans  &trans
-                                      &trans     &trans      &trans            &trans         &trans        &trans
+        &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR     &kp PERCENT       &kp AMPERSAND  &kp ASTERISK  &trans  &trans  &trans
+        &trans           &trans       &trans     &kp BACKSLASH  &kp MINUS         &kp PLUS       &kp HOME      &trans  &trans  &trans
+&trans  &trans           &trans       &trans     &kp PIPE       &kp UNDERSCORE    &kp EQUAL      &kp END       &trans  &trans  &trans  &trans
+                                      &trans     &trans         &trans            &trans         &trans        &trans
             >;
         };
 
