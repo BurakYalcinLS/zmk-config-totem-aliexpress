@@ -31,7 +31,7 @@
 
         combo_RETURN {
             bindings = <&kp RETURN>;
-            key-positions = <16 17 18>;
+            key-positions = <16 17>;
         };
 
         combo_AltSpace {
@@ -41,12 +41,12 @@
 
         combo_BackSpace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <27 28 29>;
+            key-positions = <27 28>;
         };
 
         combo_Del {
             bindings = <&kp DELETE>;
-            key-positions = <6 7 8>;
+            key-positions = <6 7>;
         };
     };
 
