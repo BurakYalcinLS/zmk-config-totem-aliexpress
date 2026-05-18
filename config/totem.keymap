@@ -83,7 +83,7 @@
        &bt BT_SEL 1    &none           &kp UP_ARROW    &none            &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none
        &bt BT_SEL 0    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none
 &none  &bt BT_CLR_ALL  &none           &macro_digit    &macro_PWD       &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &none
-                                       &none           &none            &none                   &none                  &none            &kp DEL
+                                       &none           &none            &none                   &none                  &mo 2            &kp DEL
             >;
         };
 
@@ -92,7 +92,7 @@
        &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR     &kp PERCENT       &kp AMPERSAND  &kp ASTERISK  &none  &none  &none
        &none            &none        &none      &kp BACKSLASH  &kp MINUS         &kp PLUS       &kp HOME      &none  &none  &none
 &none  &none            &none        &none      &kp PIPE       &kp UNDERSCORE    &kp EQUAL      &kp END       &none  &none  &none  &none
-                                     &none      &none          &none             &none          &none         &none
+                                     &none      &mo 1          &none             &none          &none         &none
             >;
         };
 
