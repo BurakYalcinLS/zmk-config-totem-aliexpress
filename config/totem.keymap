@@ -33,21 +33,6 @@
             bindings = <&kp RETURN>;
             key-positions = <16 17>;
         };
-
-        combo_AltSpace {
-            bindings = <&kp LA(SPACE)>;
-            key-positions = <24 23>;
-        };
-
-        combo_BackSpace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <27 28>;
-        };
-
-        combo_Del {
-            bindings = <&kp DELETE>;
-            key-positions = <6 7>;
-        };
     };
 
     macros {
@@ -98,10 +83,10 @@
 
         layer_3 {
             bindings = <
-       &none      &none          &none      &none      &none    &kp LC(Y)  &none       &none         &none            &none
-       &kp LC(A)  &kp LG(LS(S))  &none      &kp LC(F)  &none    &none      &none       &none         &none            &none
-&none  &kp LC(Z)  &kp LC(X)      &kp LC(C)  &kp LC(V)  &none    &none      &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &none  &none
-                                 &none      &none      &none    &none      &none       &none
+       &none      &none      &none      &none      &none    &kp LC(Y)      &none       &none         &none            &none
+       &kp LC(A)  &kp LC(S)  &none      &kp LC(F)  &none    &none          &none       &none         &none            &none
+&none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none    &kp LS(LG(S))  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &none  &none
+                             &none      &none      &none    &none          &none       &none
             >;
         };
     };
